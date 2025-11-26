@@ -21,7 +21,7 @@ const Header = async () => {
             className="h-12 w-auto object-contain"
           />
         </Link>
-
+        
         {/* Navigation Links - Different for signed in/out users */}
         <div className="hidden md:flex items-center space-x-8">
           <SignedOut>
@@ -45,7 +45,7 @@ const Header = async () => {
               className="text-gray-600 hover:text-blue-600 flex items-center gap-2"
             >
               <Button variant="outline">
-                <LayoutDashboard size={18} />
+                <LayoutDashboard size={18} /> 
                 <span className="hidden md:inline">Dashboard</span>
               </Button>
             </Link>
@@ -77,3 +77,4 @@ const Header = async () => {
 };
 
 export default Header;
+//Wee+9uUJ?m$WKTM
